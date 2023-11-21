@@ -1,0 +1,70 @@
+.dashContainer {
+  padding: 20px;
+}
+.dashNav {
+  display: grid;
+  place-items: end;
+}
+.dashNav img {
+  width: 20%;
+  cursor: pointer;
+}
+.dashLogo {
+  border: 0px solid white;
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+.dashLogo img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.progressContainer {
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  mix-blend-mode: normal;
+}
+.dashHeadingContainer {
+  background: #1a2c2c99 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+  border-radius: 20px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.dashHeading {
+  text-align: center;
+  font: normal normal bold 16px/25px;
+  letter-spacing: 0.01px;
+  color: #ffffffb3;
+  opacity: 0.84;
+}
+.percentageItemsContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.dashPercentageTitle {
+  text-align: left;
+  font: normal normal normal 16px/16px Mulish;
+  letter-spacing: 0.01px;
+  color: #ffffff;
+  opacity: 1;
+}
+.dashPercentage {
+  text-align: left;
+  font: normal normal normal 16px/19px Mulish;
+  letter-spacing: 0.01px;
+  color: #36a546;
+  opacity: 1;
+}
+.DashFooter {
+  margin-top: 20px;
+  color: #36a546;
+}

@@ -1,0 +1,22 @@
+.navContainer {
+    padding: 20px;
+  }
+  .Nav {
+    display: grid;
+    place-items: end;
+  }
+  .Nav img {
+    width: 20%;
+    cursor: pointer;
+  }
+  .navLogo {
+    border: 0px solid white;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .navLogo img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
